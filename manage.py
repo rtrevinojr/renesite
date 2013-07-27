@@ -1,3 +1,6 @@
+
+
+"""
 #!/usr/bin/env python
 from django.core.management import execute_manager
 import imp
@@ -12,3 +15,17 @@ import settings
 
 if __name__ == "__main__":
     execute_manager(settings)
+
+"""
+
+#!/usr/bin/env python
+import os
+import sys
+
+if __name__ == "__main__":
+    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "cache_money.settings")
+
+    from django.core.management import execute_from_command_line
+
+    execute_from_command_line(sys.argv)
+
