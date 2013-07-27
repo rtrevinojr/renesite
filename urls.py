@@ -6,7 +6,7 @@ from rene import views
 
 urlpatterns = patterns('',
     # Examples:
-    url(r'^$', 'rene.views.home', name='home'),
+    #url(r'^$', 'rene.views.home', name='home'),
     # url(r'^mysite/', include('mysite.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:
