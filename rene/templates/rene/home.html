@@ -4,39 +4,49 @@
 <html>
 
 <head>
-<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}layout.css">
-
+    <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}layout.css">
 </head>
 
 <body>
 
-
-<div class="header_div">
-
+<div class="head">
     <span class="header"> The Rene Trevino Website </span>
-
+    <nav class="menu" style="display:inline;">
+	<ul style="list-style:none;display:inline">
+	    <li style="display:inline;"> <a href="home.html"> HOME </a> </li>
+	    <li > <a href="bio.html"> BIO </a> </li>
+	    <li > <a href="resume.html> RESUME </a> </li>
+	</ul>
+    </nav>
 </div>
 
-<div class="profile" >
-    <p> profile pic </p>
-    <img class="profile" src={{ STATIC_URL }}rtrevino.jpg/>
-
-    <p> i am a 23 year senior computer science major at the university of texas. i grew up on lake austin where i a
+<table border="1">
+    <tr>
+	<td style="padding:30px" border="2">
+	    <img class="profile" src={{ STATIC_URL }}rtrevino.jpg/>
+            <ul style="padding-top:30px">
+		<li> Email: rtrevinojr@utexas.edu </li>
+		<li style="padding-top:10px"> Follow me: @rtrevinojr </li>
+		<li> 
+		    <a href="http://www.facebook.com/rtrevinojr13"> Facebook </a>
+	        </li>
+	    </ul>
+        </td>
+	<td class="texas" style="padding:30px;">
+	    <div class="texas">
+	        <p style="padding:30px"> i am a 23 year senior computer science major at the university of texas. i grew up on lake austin where i a
 ttended mccallum high school. now i am finishing my last year at ut and i plan to work in the cs field after i grad
-uate.
-    </p>
+uate. 
+    		</p>
+	        <img class="slider" src={{ STATIC_URL }}wake.png/>
+	    </div>
+	</td>
+    </tr>
+</table>
 
-    <ul>
-	<li> HOME </li>
-	<li> BIO </li>
-	<li> RESUME </li>
-	<li> PHOTOS </li>
-	<li> VIDEOS </li>
-    </ul>
 
-</div>
 
-<div class="rhome">
+<div >
 
     <p> slide bio </p>
 </div>

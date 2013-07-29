@@ -1,27 +1,50 @@
 
-body
+div.head
 {
-
-}
-div.header_div
-{
-    background-color:grey;
+    background-image:url(bg-header.jpg);
     width:100%;
-    height:150px;
-  
+    height:75px;
+    padding:20px; 
 }
 
 span.header
 {
-    font-size:50px;
+    font-size:40px;
+    color:white;
+    padding:30px;
+}
+nav.menu
+{
+    color:white;
+    float:right;
+}
+h5{
+    display:inline;
+    color:white;
+}
+h6.menu 
+{
+    display:inline;
+    color:white;
+}
+
+td.texas
+{
+    background:url(texasb.jpg);
 }
 div.profile
 {
-    background-color:white;
-    float:left;
+    background-color:orange;
     border:1px solid black;
     width:25%;
-    height:1000px;
+}
+img.slider
+{
+    width:400px;
+    height:300px;
+    margin-left:auto;
+    margin-right:auto;    
+    display:block;
 }
 img.profile
 {
@@ -32,18 +55,14 @@ img.profile
     height:235px;
     border:1px solid black;
 }
-div.rhome
+div.texas
 {
     background-image:url(texasb.jpg);
     float:left;
-    width:1350px;
-    height:2000px
 }
-h1
+img.texas
 {
-    color:blue:
-}
-p 
-{
-    color:black;
+    background-image:url(texas.jpg);
+    align-right:auto;
+    align-left:auto:
 }
